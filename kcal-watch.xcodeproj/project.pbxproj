@@ -747,8 +747,9 @@
 				DEVELOPMENT_TEAM = YCJHK26WUR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CaloriesWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CaloriesWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+                               INFOPLIST_KEY_CFBundleDisplayName = CaloriesWidget;
+                               INFOPLIST_KEY_NSExtensionPrincipalClass = "$(PRODUCT_MODULE_NAME).CaloriesWidget";
+                               INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,9 +777,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCJHK26WUR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CaloriesWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CaloriesWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+                               INFOPLIST_FILE = CaloriesWidget/Info.plist;
+                               INFOPLIST_KEY_CFBundleDisplayName = CaloriesWidget;
+                               INFOPLIST_KEY_NSExtensionPrincipalClass = "$(PRODUCT_MODULE_NAME).CaloriesWidget";
+                               INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

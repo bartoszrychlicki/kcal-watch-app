@@ -6,9 +6,11 @@
 	<string>kalorie</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.widgetkit-extension</string>
-	</dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.widgetkit-extension</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).CaloriesWidget</string>
+        </dict>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>4</integer>
